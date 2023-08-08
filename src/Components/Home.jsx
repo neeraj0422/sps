@@ -2,8 +2,7 @@ import React from 'react';
 import vg from '../assets/2.webp';
 import { AiFillYoutube } from 'react-icons/ai';
 
-// Import the tanpura audio file
-import tanpuraAudio from '../assets/tanpura_D.mp3';
+
 
 const Home = () => {
   return (
@@ -52,11 +51,7 @@ const Home = () => {
         </div>
       </div>
 
-      {/* Adding the audio element for the tanpura */}
-      <audio controls autoPlay volume={1}>
-        <source src={tanpuraAudio} type='audio/mpeg' />
-        Your browser does not support the audio element.
-      </audio>
+     
     </>
   );
 };
