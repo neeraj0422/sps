@@ -27,7 +27,7 @@ const Contact = () => {
         <button type = 'submit' >Send</button>
         <h2> Call us : +91 9990140556</h2>
         <h3>
-          Email us: <a href="mailto:mishraanirmal518@gmail.com">
+          Email us: <a href="mailto:mishranirmal518@gmail.com">
             <img className='img20' src={img20} alt='Email' /> {/* Email image */}
           </a>
         </h3>
