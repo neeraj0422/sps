@@ -4,6 +4,7 @@ import { AiFillYoutube } from 'react-icons/ai';
 
 
 
+
 const Home = () => {
   return (
     <>
@@ -11,6 +12,8 @@ const Home = () => {
 
       <div className='home2'>
         <img src={vg} alt='Graphics' />
+
+        
         <div>
           <p>
             "Join us and harmonize your soul with the timeless rhythms of tradition, we are online + offline "
@@ -49,6 +52,7 @@ const Home = () => {
             </div>
           </article>
         </div>
+        
       </div>
 
      
