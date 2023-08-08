@@ -24,7 +24,7 @@ const Footer = () => {
           <a href="https://www.facebook.com/nirmal.mishra.9" target={"blank"}>
             Facebook
           </a>
-          <a href="mailto:mishraanirmal518@gmail.com">Email </a>
+          <a href="mailto:mishranirmal518@gmail.com">Email </a>
         </div>
       </div>
     </footer>
