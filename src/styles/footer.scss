@@ -1,46 +1,67 @@
 @import 'colors.scss';
 
-footer{
-    background-color: $first;
-    height: 200px;
-    width: 100%;
-    padding: 2rem;
-    color: $dark;
-    display: grid;
-    grid-template-columns: 4fr 1fr;
+footer {
+  background-color: $first;
+  width: 100%;
+  padding: 2rem;
+  color: $dark;
+  display: grid;
+  grid-template-columns: 1fr;
 
-    >div{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
+  > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
-        >h1{
-            font: 700 2rem $text1;
-            text-transform: uppercase;
-            color: $second;
-        }
-
-        >p{
-            font: 500 1.2rem $text1;
-        }
-
-        >h5{
-            font: 300 2rem $text1;
-            margin: 1rem 0;
-            text-align: center;
-        }
-
-        >div{
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            a{
-                color: $dark;
-                font: 900 1rem $text2;
-                &:hover{
-                    color: $second;
-                }
-            }
-        }
+    > h1 {
+      font: 700 2rem $text1;
+      text-transform: uppercase;
+      color: $second;
     }
+
+    > p {
+      font: 500 1.2rem $text1;
+      margin-bottom: 1rem;
+    }
+
+    > h5 {
+      font: 300 1.8rem $text1;
+      margin: 1rem 0;
+      text-align: center;
+    }
+
+    > div {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      a {
+        color: $dark;
+        font: 700 1rem $text2;
+        text-decoration: none;
+        margin: 0.5rem;
+
+        &:hover {
+          color: $second;
+        }
+      }
+    }
+  }
+
+  @media (min-width: 768px) {
+    grid-template-columns: 4fr 1fr;
+    height: 200px;
+
+    > div {
+      > h5 {
+        font-size: 2rem;
+      }
+
+      > div {
+        a {
+          font-size: 1.2rem;
+        }
+      }
+    }
+  }
 }

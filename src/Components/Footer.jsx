@@ -3,6 +3,10 @@ import React from 'react'
 const Footer = () => {
   return (
     <footer>
+
+     <br></br>
+     <br></br>
+     <br></br>
       <div>
         <h1>Nirmal Sangeet</h1>
         <p>@all rights reserved</p>
