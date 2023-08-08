@@ -24,9 +24,12 @@ const Home = () => {
       <div className='home3' id='aboutus'>
         <div>
           <h1>Who we are?</h1>
-          <p>
-            "At Nirmal Sangeet, we are a dynamic music academy that goes beyond borders, nurturing the musical aspirations of over 1000 students from both India and around the globe. Through our innovative blend of online and offline instruction, we harmonize tradition with technology, ensuring that every note resonates with excellence and reaches aspiring musicians wherever they are."
-          </p>
+          <div>
+       
+        <p style={{ fontFamily: '"Roboto", sans-serif', fontWeight: 500, fontSize: '1.2rem', marginBottom: '1rem' }}>
+          "At Nirmal Sangeet, we are a dynamic music academy that goes beyond borders, nurturing the musical aspirations of over 1000 students from both India and around the globe. Through our innovative blend of online and offline instruction, we harmonize tradition with technology, ensuring that every note resonates with excellence and reaches aspiring musicians wherever they are."
+        </p>
+      </div>
         </div>
       </div>
 
