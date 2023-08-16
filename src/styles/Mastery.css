@@ -1,0 +1,15 @@
+/* Mastery.css */
+
+.mastery-container {
+    padding: 2rem;
+    
+  }
+  
+  .flashing-text {
+    animation: zoomInOut 3s ease-in-out infinite;
+    padding: 2rem;
+    text-align: left;
+  }
+  
+  /* ... (rest of your animations and styles) */
+  

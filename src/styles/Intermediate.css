@@ -1,0 +1,144 @@
+/* Intermediate.css */
+
+.intermediate-container {
+    padding: 2rem;
+  }
+  
+  .flashing-text {
+    animation: zoomInOut 3s ease-in-out infinite;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+
+
+  }
+  
+  /* Animations */
+  @keyframes zoomInOut {
+    0%, 100% {
+      transform: scale(1);
+      opacity: 1;
+    }
+    50% {
+      transform: scale(1.1);
+      opacity: 0.8;
+    }
+  }
+  .beginner-container {
+    padding: 2rem;
+  }
+  
+  .beginner-heading {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 1rem;
+    animation: fadeScaleUp 1.5s ease-in-out 1;
+  }
+  
+  .level {
+    background-color: #f9f9f9;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 1.5s ease-in-out 1;
+  }
+  
+  .course-list {
+    list-style-type: disc;
+    padding-left: 2rem;
+    margin: 1rem 0;
+    animation: slideUp 1.5s ease-in-out 1;
+  }
+  
+  .course-list li {
+    margin-bottom: 0.5rem;
+  }
+  
+  /* Animations */
+  @keyframes fadeScaleUp {
+    from {
+      opacity: 0;
+      transform: scale(0.9);
+    }
+    to {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes slideUp {
+    from {
+      transform: translateY(10px);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+/* ... (previous styles) */
+
+.music-icon {
+    font-size: 1.5rem;
+    margin-right: 0.5rem;
+    animation: rotate 3s linear infinite;
+  }
+  
+  /* Musical animations */
+  @keyframes rotate {
+    from {
+      transform: rotate(0);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+/* ... (previous styles) */
+
+.flashing-text {
+    display: inline-block;
+    animation: zoomInOut 3s ease-in-out infinite;
+  }
+  
+  /* Musical animations */
+  @keyframes rotate {
+    from {
+      transform: rotate(0);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  @keyframes zoomInOut {
+    0%, 100% {
+      transform: scale(1);
+      opacity: 1;
+    }
+    50% {
+      transform: scale(1.1);
+      opacity: 0.8;
+    }
+  }
+      /* Intermediate.css */
+
+
+  
+  .flashing-text {
+    animation: zoomInOut 3s ease-in-out infinite;
+    padding: 1.6rem;
+    text-align: center;
+  }
+  
+  /* ... (rest of your animations and styles) */
+  

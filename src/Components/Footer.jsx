@@ -7,7 +7,7 @@ const Footer = () => {
      <br></br>
      <br></br>
      <br></br>
-      <div>
+      <div className='sooter'>
         <h1>Nirmal Sangeet</h1>
         <p>@all rights reserved</p>
       </div>
@@ -25,6 +25,7 @@ const Footer = () => {
             Facebook
           </a>
           <a href="mailto:mishranirmal518@gmail.com">Email </a>
+         
         </div>
       </div>
     </footer>

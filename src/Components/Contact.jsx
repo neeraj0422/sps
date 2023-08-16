@@ -1,11 +1,18 @@
 import React from 'react'
 import img20 from '../assets/email.png';
+import whatsappImage from '../assets/w.jpg';
 
 const Contact = () => {
   return (
     <div className='contact'>
       <main>
-        <h1>Contact Us</h1>
+        <h1>Contact Us <a href="https://wa.me/+919990140556" target="_blank" rel="noopener noreferrer">
+        <img
+            src={whatsappImage}
+            alt="WhatsApp"
+            style={{ width: '60px', height: '60px' }} // Adjust the width and height as needed
+          />
+        </a></h1>
         
 
         <form>
@@ -26,6 +33,7 @@ const Contact = () => {
 
         <button type = 'submit' >Send</button>
         <h2> Call us : +91 9990140556</h2>
+       
         <h3>
           Email us: <a href="mailto:mishranirmal518@gmail.com">
             <img className='img20' src={img20} alt='Email' /> {/* Email image */}

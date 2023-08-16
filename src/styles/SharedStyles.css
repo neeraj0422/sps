@@ -1,0 +1,43 @@
+/* SharedStyles.css */
+
+/* Styles for rc-accordion-card */
+.rc-accordion-card {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    overflow: hidden;
+  }
+  
+  /* Global font and scroll behavior */
+  * {
+    font-family: Rubik, sans-serif;
+    scroll-behavior: smooth;
+  }
+  
+  /* Reset box-sizing and border */
+  *,
+  *:after,
+  *:before {
+    box-sizing: border-box;
+    border: 0 solid;
+  }
+  
+  /* Reset div display */
+  div {
+    display: block;
+  }
+  
+  /* Background color */
+  .bg-[\#fff] {
+    --tw-bg-opacity: 1;
+    background-color: rgba(255, 255, 255, var(--tw-bg-opacity));
+  }
+  
+  /* Reset margin and line-height for body */
+  body {
+    margin: 0;
+    line-height: inherit;
+  }
+  
+  /* Add your additional styles here */
+  

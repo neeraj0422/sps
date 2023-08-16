@@ -9,7 +9,7 @@ const Header = () => {
 
                 
               <img className="a1" style={{ display: '100%', width: '10em', height: '88px' }} src={image1} alt="Logo" />
-                <h1 style={{textTransform : 'none'}}> Nirmal Sangeet</h1>
+                <h1 className='head' style={{textTransform : 'none'}}> Nirmal Sangeet</h1>
                 
                 <main>
                     <HashLink to = '/#home' >Home</HashLink>

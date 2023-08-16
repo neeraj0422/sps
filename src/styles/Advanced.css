@@ -1,0 +1,16 @@
+/* Advanced.css */
+
+.advanced-container {
+   
+    text-align: left;
+    padding-left: 2rem;
+  }
+  
+  .flashing-text {
+    animation: zoomInOut 3s ease-in-out infinite;
+    padding-top: 2rem;
+    text-align: center;
+  }
+  
+  /* ... (rest of your animations and styles) */
+  
