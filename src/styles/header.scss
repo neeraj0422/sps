@@ -1,5 +1,28 @@
 @import "colors";
 
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.admission-notice {
+  background-color: #f8f8f8;
+  padding: 10px 20px;
+}
+
+.admission-notice marquee {
+  font-size: 18px;
+  color: #333;
+  white-space: nowrap;
+}
+
 nav {
   width: 100%;
   padding: 1rem;

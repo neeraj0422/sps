@@ -4,20 +4,16 @@ const Footer = () => {
   return (
     <footer>
 
-     <br></br>
-     <br></br>
-     <br></br>
+   
       <div className='sooter'>
-        <h1>Nirmal Sangeet</h1>
+        <h1>SHIVAM PUBLIC SCHOOL</h1>
         <p>@all rights reserved</p>
       </div>
 
       <div>
       <h5>Connect With Us</h5>
-        <div>
-          <a href="https://www.youtube.com/@nirmalsangeet" target={"blank"}>
-            Youtube
-          </a>
+        {/* <div>
+         
           <a href="https://www.instagram.com/nirmal_mishra_official/" target={"blank"}>
             Instagram
           </a>
@@ -26,7 +22,7 @@ const Footer = () => {
           </a>
           <a href="mailto:mishranirmal518@gmail.com">Email </a>
          
-        </div>
+        </div> */}
       </div>
     </footer>
   )

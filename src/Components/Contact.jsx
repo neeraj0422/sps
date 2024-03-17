@@ -6,7 +6,7 @@ const Contact = () => {
   return (
     <div className='contact'>
       <main>
-        <h1>Contact Us <a href="https://wa.me/+919990140556" target="_blank" rel="noopener noreferrer">
+        <h1> For Admission WhatsApp <a href="https://wa.me/6200437407" target="_blank" rel="noopener noreferrer">
         <img
             src={whatsappImage}
             alt="WhatsApp"
@@ -32,13 +32,9 @@ const Contact = () => {
         </div>
 
         <button type = 'submit' >Send</button>
-        <h2> Call us : +91 9990140556</h2>
+        <h2> Call us :6200437407,9771694981</h2>
        
-        <h3>
-          Email us: <a href="mailto:mishranirmal518@gmail.com">
-            <img className='img20' src={img20} alt='Email' /> {/* Email image */}
-          </a>
-        </h3>
+        
         </form>
       </main>
     </div>

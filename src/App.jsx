@@ -5,10 +5,10 @@ import Footer from './Components/Footer';
 import Home from './Components/Home';
 import Contact from './Components/Contact';
 import Services from './Components/Services';
-import Beginner from './Components/Beginer';
-import Intermediate from './Components/Intermediate'; // Import other level components similarly
-import Advanced from './Components/Advanced'; // Import other level components similarly
-import Mastery from './Components/Mastery'; // Import other level components similarly
+import Beginner from './Components/Sports';
+import Intermediate from './Components/Activities'; // Import other level components similarly
+import Advanced from './Components/Computerlab'; // Import other level components similarly
+import Mastery from './Components/Library'; // Import other level components similarly
 
 import './styles/App.scss';
 import './styles/header.scss';

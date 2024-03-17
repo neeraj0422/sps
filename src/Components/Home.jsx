@@ -1,7 +1,10 @@
 import React from 'react';
-import vg from '../assets/2.png';
-import { AiFillYoutube } from 'react-icons/ai';
+import vg from '../assets/sps-removebg-preview.png';
+import { IoMdSchool } from 'react-icons/io';
 import { useNavigate } from 'react-router-dom';
+import { IoMdFootball } from 'react-icons/io';
+import { IoMdBrush, IoIosDesktop, IoIosBook,  } from 'react-icons/io';
+
 import '../styles/SharedStyles.css'; // Import the shared styles
 
 const Home = () => {
@@ -27,9 +30,10 @@ const Home = () => {
         <img className="pic" src={vg} alt="Graphics" />
 
         <div>
-          <p>
-            "Join  your soul with the timeless rhythms of tradition, we are online + offline "
-          </p>
+        <p>
+    "At SHIVAM PUBLIC SCHOOL, connect your mind with the timeless essence of knowledge."
+</p>
+
         </div>
       </div>
 
@@ -49,32 +53,33 @@ const Home = () => {
 
           <h1>Who we are?</h1>
           <div>
-            <p className="aboutus-text">
-              "At Nirmal Sangeet, we are a dynamic music academy that goes beyond borders, nurturing the musical aspirations of over 1000 students from both India and around the globe. Through our innovative blend of online and offline instruction, we harmonize tradition with technology, ensuring that every note resonates with excellence and reaches aspiring musicians wherever they are."
-            </p>
+          <p className="aboutus-text">
+    "Welcome to SHIVAM PUBLIC SCHOOL, With a diverse community of students from various backgrounds, we embrace tradition while embracing modern educational methods. we ensure that every student receives a comprehensive education , preparing them for success in an ever-changing world."
+        </p>
+
           </div>
         </div>
       </div>
 
       <div className="rc-accordion-card home4" id="brands">
         <div>
-          <h1>Courses</h1>
+          <h1>Events</h1>
           <article>
             <div style={{ animationDelay: '0.3s' }} onClick={() => handleClick('Beginner')}>
-              <AiFillYoutube />
-              <p>Beginner </p>
+            <IoMdFootball />
+              <p>sports </p>
             </div>
             <div style={{ animationDelay: '0.6s' }} onClick={() => handleClick('Intermediate')}>
-              <AiFillYoutube />
-              <p>Intermediate </p>
+            <IoMdBrush />
+              <p>Activity</p>
             </div>
             <div style={{ animationDelay: '0.9s' }} onClick={() => handleClick('Advanced')}>
-              <AiFillYoutube />
-              <p>Advanced </p>
+            <IoIosDesktop/>
+              <p>computer Lab </p>
             </div>
             <div style={{ animationDelay: '1.2s' }} onClick={() => handleClick('Mastery')}>
-              <AiFillYoutube />
-              <p>Mastery </p>
+            <IoIosBook />
+              <p>Library </p>
             </div>
           </article>
         </div>
